@@ -1,0 +1,8 @@
+1. Create Java project
+2. Add framework support - Maven
+3. Add dependencies in pom.xml (selenium, apache commons, testng)
+4. Create BaseActions in Java Main and BaseUI in Java test
+5. Initialize WebDriver driver and WebDriverWait wait in BaseActions and BaseUI to extend these methods in other main and test classes
+6. In BaseUI create @BeforeMethod and @AfterMethod
+    a. In @BeforeMethod create method setup that contains a copy of wait and declares START_URL
+    b. In @AfterMethod just create tearDown method that contains driver.quit() if neaded
