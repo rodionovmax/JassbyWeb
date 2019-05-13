@@ -8,16 +8,25 @@ public class BaseUI {
 
     WebDriver driver;
     WebDriverWait wait;
+    Main main;
+    Login login;
+    FamilyLinking familyLinking;
 
 
     @BeforeMethod
     public void setUp(){
 
-        driver = new ChromeDriver();
         System.setProperty("webdriver.chrome.driver", "chromedriver");
+        driver = new ChromeDriver();
+        driver.get("chrome://settings/clearBrowserData");
         wait = new WebDriverWait(driver, 5);
-        driver.manage().window().maximize();
-        driver.get(Data.START_URL);
+//        driver.manage().window().maximize();
+        driver.get(Data.startUrl);
+
+        main = new Main(driver, wait);
+        login = new Login(driver, wait);
+        familyLinking = new FamilyLinking(driver, wait);
+
     }
 
 
