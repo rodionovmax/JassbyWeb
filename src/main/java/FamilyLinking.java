@@ -1,5 +1,10 @@
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class FamilyLinking extends BaseActions{
 
@@ -41,6 +46,7 @@ public class FamilyLinking extends BaseActions{
     }
 
     public void deletefamily() throws InterruptedException {
+        clickFamilyMenu();
         ajaxClick(Locators.FAMILY_ICON_SETTINGS);
         Thread.sleep(1000);
         ajaxClick(Locators.FAMILY_DELETE_BUTTON);
@@ -48,5 +54,50 @@ public class FamilyLinking extends BaseActions{
         driver.findElement(Locators.FAMILY_DELETE_CONFIRMATION_BUTTON).click();
         Thread.sleep(1000);
         clickContinueOnConfirmationPopup();
+    }
+
+    public void clickInviteMemberButton(){
+        ajaxClick(Locators.FAMILY_INIVITE_MEMBER_BUTTON);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void inviteFamilyMemberViaJassbyCode() throws InterruptedException {
+        clickInviteMemberButton();
+        enterJassbyCodeInCellsAndSubmit();
+
+        Thread.sleep(1000);
+        clickContinueOnConfirmationPopup();
+    }
+
+    public void enterJassbyCodeInCellsAndSubmit(){
+
+        // Create list of web-elements for Jassby code
+        List<WebElement> jassbyCode = driver.findElements(Locators.FAMILY_CELL_PLACEHOLDER);
+        jassbyCode.add(driver.findElement(Locators.FAMILY_LAST_CELL_PLACEHOLDER));
+
+        // Create list of digits for Jassby code
+        List<String> jassbyCodeDigits = new ArrayList<>(Arrays.asList("0", "3", "2", "1", "7", "2"));
+
+        for (int i = 0; i < jassbyCode.size(); i++) {
+            WebElement jassbyCodeCurrentPlaceholder = jassbyCode.get(i);
+            jassbyCodeCurrentPlaceholder.clear();
+            jassbyCodeCurrentPlaceholder.sendKeys(jassbyCodeDigits.get(i));
+        }
+
+        clickSubmitButtonInviteFamilyMember();
+
+    }
+
+    public void clickSubmitButtonInviteFamilyMember(){
+        driver.findElement(Locators.FAMILY_INVITE_MEMBER_BUTTON).click();
+    }
+
+    public String assertInvitationSuccessfullySent(){
+        String invitationSentAlertText = driver.findElement(Locators.FAMILY_ALERT_INVITATION_SENT).getText();
+        return invitationSentAlertText;
     }
 }

@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d601f1f0-7c5d-4b7a-8398-d7385274bc92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_14_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JassbyWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JassbyWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseActions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BaseActions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FamilyLinking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FamilyLinking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -48,13 +44,13 @@
         <counts>
           <entry key="Notes" value="585" />
           <entry key="dummy" value="11" />
-          <entry key="java" value="3520" />
+          <entry key="java" value="4600" />
           <entry key="xml" value="60" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3520" />
+          <entry key="JAVA" value="4600" />
           <entry key="PLAIN_TEXT" value="596" />
           <entry key="XML" value="60" />
         </counts>
@@ -100,11 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state relative-caret-position="210">
+              <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FamilyLinking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+            <state relative-caret-position="253">
+              <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#188#189#0" expanded="true" />
@@ -131,8 +127,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Locators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
+            <state relative-caret-position="168">
+              <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -152,7 +148,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
+            <state relative-caret-position="250">
               <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -178,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+            <state relative-caret-position="300">
+              <caret line="20" column="57" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -206,10 +202,10 @@
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Data.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataProviders.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Locators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Data.java" />
         <option value="$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/FamilyLinking.java" />
       </list>
@@ -281,7 +277,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557722584479" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557893129094" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2577031" />
@@ -299,6 +295,16 @@
     </option>
   </component>
   <component name="RunManager" selected="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent">
+    <configuration name="FamilyLinkingTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JassbyWeb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FamilyLinkingTests" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JassbyWeb" />
       <option name="PACKAGE_NAME" value="" />
@@ -352,10 +358,12 @@
       <item itemvalue="TestNG.LoginTests.testLoginViaEmailWithDataProvider" />
       <item itemvalue="TestNG.LoginTests.testLoginViaGmail" />
       <item itemvalue="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" />
+      <item itemvalue="TestNG.FamilyLinkingTests" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" />
+        <item itemvalue="TestNG.FamilyLinkingTests" />
         <item itemvalue="TestNG.LoginTests.testLoginViaGmail" />
         <item itemvalue="TestNG.LoginTests.testLoginViaEmailWithDataProvider" />
         <item itemvalue="TestNG.LoginTests.firstTest" />
@@ -376,34 +384,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LoginTests_testLoginViaGmail - 2019.05.12 at 21h 49m 14s.xml">
-      <configuration name="LoginTests.testLoginViaGmail" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTests_testLoginViaGmail - 2019.05.12 at 21h 58m 47s.xml">
-      <configuration name="LoginTests.testLoginViaGmail" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.13 at 00h 14m 09s.xml">
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.14 at 23h 45m 16s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.13 at 00h 15m 11s.xml">
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.14 at 23h 48m 30s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.13 at 00h 16m 23s.xml">
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.14 at 23h 53m 16s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.13 at 00h 18m 15s.xml">
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.14 at 23h 53m 35s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.13 at 00h 21m 00s.xml">
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.14 at 23h 54m 03s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.13 at 00h 21m 38s.xml">
+    <history-entry file="FamilyLinkingTests - 2019.05.14 at 23h 54m 32s.xml">
+      <configuration name="FamilyLinkingTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.14 at 23h 55m 45s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.13 at 00h 38m 59s.xml">
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.14 at 23h 56m 19s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.13 at 00h 41m 31s.xml">
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.14 at 23h 57m 58s.xml">
+      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.15 at 00h 05m 52s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
     </history-entry>
   </component>
@@ -418,10 +426,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3561644" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,16 +469,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -522,22 +520,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="59" lean-forward="true" selection-start-line="18" selection-start-column="59" selection-end-line="18" selection-end-column="59" />
+        <state relative-caret-position="300">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="57" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Locators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="27" column="115" selection-start-line="27" selection-start-column="115" selection-end-line="27" selection-end-column="115" />
+        <state relative-caret-position="168">
+          <caret line="19" column="37" lean-forward="true" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="250">
+          <caret line="27" column="56" selection-start-line="27" selection-start-column="56" selection-end-line="27" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -546,14 +544,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FamilyLinking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="49" column="43" lean-forward="true" selection-start-line="49" selection-start-column="43" selection-end-line="49" selection-end-column="43" />
+        <state relative-caret-position="253">
+          <caret line="88" column="9" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#188#189#0" expanded="true" />
             <element signature="e#211#212#0" expanded="true" />
             <element signature="e#421#422#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

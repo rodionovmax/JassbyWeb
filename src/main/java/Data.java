@@ -17,6 +17,8 @@ public class Data {
 
     public static final String loginParent = "homerdonut@ca.yahoo.com";
     public static final String passwordParent = "12345678";
+    public static final String kidJassbyCode = "032172";
+    public static final String invitationSentExpectedText = "You invited";
 
 
 

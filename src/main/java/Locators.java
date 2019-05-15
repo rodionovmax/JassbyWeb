@@ -26,6 +26,11 @@ public class Locators {
     public static final By FAMILY_ICON_SETTINGS= By.xpath("//span[@class='icon-icon_settings']");
     public static final By FAMILY_DELETE_BUTTON= By.xpath("//li[@data-action='delete']");
     public static final By FAMILY_DELETE_CONFIRMATION_BUTTON= By.xpath("//button[contains(text(), 'Delete Family')]");
+    public static final By FAMILY_INIVITE_MEMBER_BUTTON= By.xpath("//button[contains(text(), 'Invite Member')]");
+    public static final By FAMILY_CELL_PLACEHOLDER = By.xpath("//input[@class='jassby-code-digit']");
+    public static final By FAMILY_LAST_CELL_PLACEHOLDER = By.xpath("//input[@class='jassby-code-digit last']");
+    public static final By FAMILY_INVITE_MEMBER_BUTTON = By.xpath("//div[@id='addKidBtn']");
+    public static final By FAMILY_ALERT_INVITATION_SENT = By.xpath("//span[@class='alertMessage']");
 
 
 

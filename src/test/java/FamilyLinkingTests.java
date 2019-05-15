@@ -12,7 +12,12 @@ public class FamilyLinkingTests extends BaseUI{
         familyLinking.parentCreatesFamily();
         Thread.sleep(1000);
         Assert.assertEquals(familyLinking.getFamilyDisplayNameForVerification(), Data.defaultFamilyName);
-
+        //Send Jassby code
+        familyLinking.inviteFamilyMemberViaJassbyCode();
+        //Verify code was successfully sent
+        Thread.sleep(1000);
+        String invitationSentAlertText = familyLinking.assertInvitationSuccessfullySent();
+        Assert.assertTrue(invitationSentAlertText.contains(Data.invitationSentExpectedText));
         //delete family
         familyLinking.deletefamily();
     }
