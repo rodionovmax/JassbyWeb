@@ -77,9 +77,9 @@ public class FamilyLinking extends BaseActions{
         }
     }
 
-    public void inviteFamilyMemberViaJassbyCode(){
+    public void inviteFamilyMemberViaJassbyCode(List<String> jassbyCodeDigits){
         clickInviteMemberButton();
-        enterJassbyCodeInCellsAndSubmit();
+        enterJassbyCodeInCellsAndSubmit(jassbyCodeDigits);
         try {
             Thread.sleep(1000);
         } catch (InterruptedException e) {
@@ -88,14 +88,14 @@ public class FamilyLinking extends BaseActions{
         clickContinueOnConfirmationPopup();
     }
 
-    public void enterJassbyCodeInCellsAndSubmit(){
+    public void enterJassbyCodeInCellsAndSubmit(List<String> jassbyCodeDigits){
 
         // Create list of web-elements for Jassby code
         List<WebElement> jassbyCode = driver.findElements(Locators.FAMILY_CELL_PLACEHOLDER);
         jassbyCode.add(driver.findElement(Locators.FAMILY_LAST_CELL_PLACEHOLDER));
 
         // Create list of digits for Jassby code
-        List<String> jassbyCodeDigits = new ArrayList<>(Arrays.asList("0", "3", "2", "1", "7", "2"));
+//        List<String> jassbyCodeDigits = new ArrayList<>(Arrays.asList("0", "3", "2", "1", "7", "2"));
 
         for (int i = 0; i < jassbyCode.size(); i++) {
             WebElement jassbyCodeCurrentPlaceholder = jassbyCode.get(i);

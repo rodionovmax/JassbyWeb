@@ -14,7 +14,7 @@ public class DataProviders {
     @DataProvider(name = "CredentialsForParentInvitesKidAndGrandparent")
     public static Object[][] credentialsForFamilyLinking(){
         return new Object[][]{
-                {Data.loginParent, Data.password, Data.loginKid, Data.password}
+                {Data.loginParent, Data.password, Data.loginKid, Data.loginGrandparent}
         };
     }
 }

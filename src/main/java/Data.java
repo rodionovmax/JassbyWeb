@@ -21,6 +21,7 @@ public class Data {
     public static final String invitationSentExpectedText = "You invited";
     public static final String invitationReceivedExpectedText = " sent you a family invite.";
     public static final String loginKid = "casperghost@yandex.ru";
+    public static final String loginGrandparent = "kurt_cobain@gmail.com";
 
 
 
