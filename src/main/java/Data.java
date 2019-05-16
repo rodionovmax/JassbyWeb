@@ -13,12 +13,14 @@ public class Data {
     public static final String gmailLoginOne = "dartweider2145@gmail.com";
     public static final String gmailPasswordOne = "jassby1234";
     public static final String expectedLoginVerificationTitle = "Sign In with Email";
-    public static final String defaultFamilyName = "Jassby family";
+    public static final String defaultFamilyName = "Hamburgers";
 
     public static final String loginParent = "homerdonut@ca.yahoo.com";
-    public static final String passwordParent = "12345678";
+    public static final String password = "12345678";
     public static final String kidJassbyCode = "032172";
     public static final String invitationSentExpectedText = "You invited";
+    public static final String invitationReceivedExpectedText = " sent you a family invite.";
+    public static final String loginKid = "casperghost@yandex.ru";
 
 
 

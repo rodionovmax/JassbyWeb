@@ -30,7 +30,8 @@ public class Locators {
     public static final By FAMILY_CELL_PLACEHOLDER = By.xpath("//input[@class='jassby-code-digit']");
     public static final By FAMILY_LAST_CELL_PLACEHOLDER = By.xpath("//input[@class='jassby-code-digit last']");
     public static final By FAMILY_INVITE_MEMBER_BUTTON = By.xpath("//div[@id='addKidBtn']");
-    public static final By FAMILY_ALERT_INVITATION_SENT = By.xpath("//span[@class='alertMessage']");
+    public static final By FAMILY_ALERT_INVITATION = By.xpath("//span[@class='alertMessage']");
+    public static final By FAMILY_APPROVE_INVITATION_BUTTON = By.xpath("//button//span[contains(text(), 'Approve')]");
 
 
 

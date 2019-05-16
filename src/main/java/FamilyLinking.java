@@ -12,8 +12,12 @@ public class FamilyLinking extends BaseActions{
         super(driver, wait);
     }
 
-    public void clickFamilyMenu() throws InterruptedException {
-        Thread.sleep(1000);
+    public void clickFamilyMenu(){
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         ajaxClick(Locators.FAMILY_MENU_ICON);
     }
 
@@ -25,18 +29,26 @@ public class FamilyLinking extends BaseActions{
         driver.findElement(Locators.CONFIRMATION_POPUP_CONTINUE_BUTTON).click();
     }
 
-    public void enterFamilyNameAndSubmit() throws InterruptedException {
-        Thread.sleep(1000);
-//        driver.findElement(Locators.FAMILY_DISPLAY_NAME_FIELD).clear();
+    public void enterFamilyNameAndSubmit(){
+        driver.findElement(Locators.FAMILY_DISPLAY_NAME_FIELD).clear();
         driver.findElement(Locators.FAMILY_DISPLAY_NAME_FIELD).sendKeys(Data.defaultFamilyName);
         driver.findElement(Locators.FAMILY_NAME_SUBMIT_BUTTON).click();
-        Thread.sleep(1000);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         clickContinueOnConfirmationPopup();
     }
 
-    public void parentCreatesFamily() throws InterruptedException {
+    public void parentCreatesFamily(){
         clickFamilyMenu();
         clickCreateFamily();
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         enterFamilyNameAndSubmit();
     }
 
@@ -65,11 +77,14 @@ public class FamilyLinking extends BaseActions{
         }
     }
 
-    public void inviteFamilyMemberViaJassbyCode() throws InterruptedException {
+    public void inviteFamilyMemberViaJassbyCode(){
         clickInviteMemberButton();
         enterJassbyCodeInCellsAndSubmit();
-
-        Thread.sleep(1000);
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         clickContinueOnConfirmationPopup();
     }
 
@@ -96,8 +111,23 @@ public class FamilyLinking extends BaseActions{
         driver.findElement(Locators.FAMILY_INVITE_MEMBER_BUTTON).click();
     }
 
-    public String assertInvitationSuccessfullySent(){
-        String invitationSentAlertText = driver.findElement(Locators.FAMILY_ALERT_INVITATION_SENT).getText();
-        return invitationSentAlertText;
+    /** Get text of alert for sent or received invitation to family */
+    public String alertGetText(){
+        String alertText = driver.findElement(Locators.FAMILY_ALERT_INVITATION).getText();
+        return alertText;
     }
+
+    /** Click Approve button to accept invitation to family */
+    public void clickApproveButtonToJoinFamily(){
+        driver.findElement(Locators.FAMILY_APPROVE_INVITATION_BUTTON).click();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        clickContinueOnConfirmationPopup();
+    }
+
+
+
 }
