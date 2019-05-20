@@ -14,9 +14,8 @@ public class Main extends BaseActions{
         driver.findElement(Locators.HOME_LOGIN).click();
     }
 
-    public void logOut() throws InterruptedException {
+    public void logOut() {
         wait.until(ExpectedConditions.elementToBeClickable(Locators.HOME_MORE_BUTTON));
-        Thread.sleep(1000);
         ajaxClick(Locators.HOME_MORE_BUTTON);
         ajaxClick(Locators.LOGOUT_BUTTON);
     }

@@ -1,5 +1,6 @@
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.util.ArrayList;
@@ -26,18 +27,30 @@ public class FamilyLinking extends BaseActions{
     }
 
     public void clickContinueOnConfirmationPopup(){
+
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.CONFIRMATION_POPUP_CONTINUE_BUTTON));
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         driver.findElement(Locators.CONFIRMATION_POPUP_CONTINUE_BUTTON).click();
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
     }
 
     public void enterFamilyNameAndSubmit(){
         driver.findElement(Locators.FAMILY_DISPLAY_NAME_FIELD).clear();
         driver.findElement(Locators.FAMILY_DISPLAY_NAME_FIELD).sendKeys(Data.defaultFamilyName);
         driver.findElement(Locators.FAMILY_NAME_SUBMIT_BUTTON).click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         clickContinueOnConfirmationPopup();
     }
 
@@ -64,7 +77,7 @@ public class FamilyLinking extends BaseActions{
         ajaxClick(Locators.FAMILY_DELETE_BUTTON);
         Thread.sleep(1000);
         driver.findElement(Locators.FAMILY_DELETE_CONFIRMATION_BUTTON).click();
-        Thread.sleep(1000);
+//        Thread.sleep(1000);
         clickContinueOnConfirmationPopup();
     }
 
@@ -78,14 +91,26 @@ public class FamilyLinking extends BaseActions{
     }
 
     public void inviteFamilyMemberViaJassbyCode(List<String> jassbyCodeDigits){
-        clickInviteMemberButton();
+        //clickInviteMemberButton();
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.FAMILY_CELL_PLACEHOLDER));
         enterJassbyCodeInCellsAndSubmit(jassbyCodeDigits);
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(1000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
         clickContinueOnConfirmationPopup();
+    }
+
+    public void requestToJoinAsGrandparent(List<String> jassbyCodeDigits){
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.FAMILY_CELL_PLACEHOLDER));
+        enterJassbyCodeInCellsAndSubmit(jassbyCodeDigits);
+    }
+
+    public String getMessageGrandparentCannotRequestToJoin(){
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.CONFIRMATION_POPUP_CONTINUE_BUTTON));
+        String inviteNotAllowed = driver.findElement(Locators.FAMILY_MESSAGE_INVITE_NOT_ALLOWED).getText();
+        return inviteNotAllowed;
     }
 
     public void enterJassbyCodeInCellsAndSubmit(List<String> jassbyCodeDigits){
@@ -120,12 +145,18 @@ public class FamilyLinking extends BaseActions{
     /** Click Approve button to accept invitation to family */
     public void clickApproveButtonToJoinFamily(){
         driver.findElement(Locators.FAMILY_APPROVE_INVITATION_BUTTON).click();
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.CONFIRMATION_POPUP_CONTINUE_BUTTON));
         clickContinueOnConfirmationPopup();
+    }
+
+    public void inviteParent(){
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.FAMILY_INVITE_PARENT));
+        driver.findElement(Locators.FAMILY_INVITE_PARENT).click();
+    }
+
+    public void requestToJoinAsGrandparent(){
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.FAMILY_JOIN_FAMILY));
+        driver.findElement(Locators.FAMILY_JOIN_FAMILY).click();
     }
 
 

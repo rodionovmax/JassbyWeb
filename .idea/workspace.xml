@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d601f1f0-7c5d-4b7a-8398-d7385274bc92" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/FamilyLinking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/FamilyLinking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,6 +19,20 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1092465688">
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1201" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -33,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="-187">
               <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,7 +64,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/DataProviders.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+              <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
             </state>
           </provider>
         </entry>
@@ -54,8 +72,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="605">
-              <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+            <state relative-caret-position="1606">
+              <caret line="156" column="11" lean-forward="true" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/FamilyLinking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="123" column="26" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
+            <state relative-caret-position="348">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Locators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+            <state relative-caret-position="115">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -87,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BaseActions.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+            <state relative-caret-position="338">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/BaseUI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="180">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -111,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+            <state relative-caret-position="210">
+              <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,8 +141,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="69" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="69" />
+            <state relative-caret-position="270">
+              <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -140,8 +158,19 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jIcon icon-icon_linkedaccounts</find>
       <find>card-title</find>
+      <find>jIcon icon-icon_linkedaccounts</find>
+      <find>FAMILY_MENU_ICON</find>
+      <find>//button[contains(text(), 'Invite Member')</find>
+      <find>FAMILY_INIVITE_MEMBER_BUTTON</find>
+      <find>//div[contains(text(), 'Continue')]&quot;</find>
+      <find>//div[contains(text(), 'Continue')]</find>
+      <find>//div[@class='btn btn-main mt-4']</find>
+      <find>//span[@class='alertMessage']</find>
+      <find>CONFIRMATION_POPUP_CONTINUE_BUTTON</find>
+      <find>settingsNav</find>
+      <find>clickInviteMemberButton</find>
+      <find>HOME_MORE_BUTTON</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -154,14 +183,14 @@
         <option value="$PROJECT_DIR$/Notes" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/BaseActions.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/Login.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Locators.java" />
         <option value="$PROJECT_DIR$/src/test/java/BaseUI.java" />
         <option value="$PROJECT_DIR$/src/main/java/DataProviders.java" />
-        <option value="$PROJECT_DIR$/src/main/java/FamilyLinking.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Locators.java" />
         <option value="$PROJECT_DIR$/src/main/java/Data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FamilyLinking.java" />
         <option value="$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java" />
       </list>
     </option>
@@ -185,6 +214,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,12 +258,11 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558024619921" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558370564398" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -257,19 +286,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts">
-    <configuration name="FamilyLinkingTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesKidAndKidAccepts">
+    <configuration name="FamilyLinkingTests.KidRequestsToJoinFamilyAndParentAccepts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JassbyWeb" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FamilyLinkingTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="METHOD_NAME" value="KidRequestsToJoinFamilyAndParentAccepts" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FamilyLinkingTests.kidRequestsToJoinFamilyAndParentAccepts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JassbyWeb" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FamilyLinkingTests" />
+      <option name="METHOD_NAME" value="kidRequestsToJoinFamilyAndParentAccepts" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JassbyWeb" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FamilyLinkingTests" />
@@ -281,7 +323,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndKidAccepts" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndKidAccepts" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JassbyWeb" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="FamilyLinkingTests" />
@@ -293,23 +335,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.testLoginViaEmailWithDataProvider" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JassbyWeb" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTests" />
-      <option name="METHOD_NAME" value="testLoginViaEmailWithDataProvider" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.testLoginViaGmail" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="JassbyWeb" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTests" />
-      <option name="METHOD_NAME" value="testLoginViaGmail" />
+      <option name="MAIN_CLASS_NAME" value="FamilyLinkingTests" />
+      <option name="METHOD_NAME" value="verifyGrandparentCannotRequestToJoinFamily" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -318,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.LoginTests.testLoginViaEmailWithDataProvider" />
-      <item itemvalue="TestNG.LoginTests.testLoginViaGmail" />
       <item itemvalue="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesKidAndKidAccepts" />
-      <item itemvalue="TestNG.FamilyLinkingTests" />
       <item itemvalue="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts" />
+      <item itemvalue="TestNG.FamilyLinkingTests.KidRequestsToJoinFamilyAndParentAccepts" />
+      <item itemvalue="TestNG.FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" />
+      <item itemvalue="TestNG.FamilyLinkingTests.kidRequestsToJoinFamilyAndParentAccepts" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts" />
         <item itemvalue="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesKidAndKidAccepts" />
-        <item itemvalue="TestNG.FamilyLinkingTests" />
-        <item itemvalue="TestNG.LoginTests.testLoginViaGmail" />
-        <item itemvalue="TestNG.LoginTests.testLoginViaEmailWithDataProvider" />
+        <item itemvalue="TestNG.FamilyLinkingTests.parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts" />
+        <item itemvalue="TestNG.FamilyLinkingTests.kidRequestsToJoinFamilyAndParentAccepts" />
+        <item itemvalue="TestNG.FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" />
+        <item itemvalue="TestNG.FamilyLinkingTests.KidRequestsToJoinFamilyAndParentAccepts" />
       </list>
     </recent_temporary>
   </component>
@@ -348,35 +378,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.15 at 23h 44m 52s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.15 at 23h 48m 06s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.15 at 23h 48m 17s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.15 at 23h 49m 10s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.15 at 23h 49m 53s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.15 at 23h 51m 00s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.16 at 00h 22m 23s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.16 at 00h 23m 19s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndGrandparent - 2019.05.16 at 11h 51m 29s.xml">
-      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndGrandparent" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndKidAccepts - 2019.05.16 at 12h 13m 38s.xml">
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesKidAndKidAccepts - 2019.05.20 at 12h 22m 27s.xml">
       <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesKidAndKidAccepts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts - 2019.05.20 at 12h 23m 17s.xml">
+      <configuration name="FamilyLinkingTests.parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_verifyGrandparentCannotRequestToJoinFamily - 2019.05.20 at 12h 23m 40s.xml">
+      <configuration name="FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_verifyGrandparentCannotRequestToJoinFamily - 2019.05.20 at 12h 25m 43s.xml">
+      <configuration name="FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_kidRequestsToJoinFamilyAndParentAccepts - 2019.05.20 at 12h 27m 14s.xml">
+      <configuration name="FamilyLinkingTests.kidRequestsToJoinFamilyAndParentAccepts" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_verifyGrandparentCannotRequestToJoinFamily - 2019.05.20 at 12h 28m 21s.xml">
+      <configuration name="FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_verifyGrandparentCannotRequestToJoinFamily - 2019.05.20 at 12h 31m 55s.xml">
+      <configuration name="FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_verifyGrandparentCannotRequestToJoinFamily - 2019.05.20 at 12h 36m 25s.xml">
+      <configuration name="FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_verifyGrandparentCannotRequestToJoinFamily - 2019.05.20 at 12h 38m 04s.xml">
+      <configuration name="FamilyLinkingTests.verifyGrandparentCannotRequestToJoinFamily" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="FamilyLinkingTests_kidRequestsToJoinFamilyAndParentAccepts - 2019.05.20 at 12h 38m 49s.xml">
+      <configuration name="FamilyLinkingTests.kidRequestsToJoinFamilyAndParentAccepts" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -389,10 +419,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="23" width="1243" height="777" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25478768" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17525035" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -401,13 +431,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329927" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3554217" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3554217" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -435,6 +465,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/DataProviders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="78" selection-start-line="16" selection-start-column="78" selection-end-line="16" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/BaseActions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -445,17 +492,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Locators.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state relative-caret-position="170">
+          <caret line="300" column="30" selection-start-line="300" selection-start-column="30" selection-end-line="300" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="36" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="36" />
+        <state relative-caret-position="270">
+          <caret line="18" column="69" lean-forward="true" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BaseUI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -464,7 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="-187">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -472,34 +526,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DataProviders.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Locators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="86" selection-start-line="16" selection-start-column="86" selection-end-line="16" selection-end-column="86" />
+        <state relative-caret-position="115">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Data.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="69" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/BaseActions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BaseUI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="210">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -508,8 +545,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FamilyLinking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="123" column="26" selection-start-line="123" selection-start-column="26" selection-end-line="123" selection-end-column="26" />
+        <state relative-caret-position="348">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -518,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/FamilyLinkingTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="605">
-          <caret line="85" column="8" lean-forward="true" selection-start-line="85" selection-start-column="8" selection-end-line="85" selection-end-column="8" />
+        <state relative-caret-position="1606">
+          <caret line="156" column="11" lean-forward="true" selection-start-line="156" selection-start-column="11" selection-end-line="156" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

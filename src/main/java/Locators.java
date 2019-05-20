@@ -32,6 +32,9 @@ public class Locators {
     public static final By FAMILY_INVITE_MEMBER_BUTTON = By.xpath("//div[@id='addKidBtn']");
     public static final By FAMILY_ALERT_INVITATION = By.xpath("//span[@class='alertMessage']");
     public static final By FAMILY_APPROVE_INVITATION_BUTTON = By.xpath("//button//span[contains(text(), 'Approve')]");
+    public static final By FAMILY_INVITE_PARENT = By.xpath("//div[@id='inviteParentCol']");
+    public static final By FAMILY_JOIN_FAMILY = By.xpath("//div[@id='joinFamilyCol']");
+    public static final By FAMILY_MESSAGE_INVITE_NOT_ALLOWED = By.xpath("//p[contains(text(), 'Sorry, the invite is not allowed')]");
 
 
 
