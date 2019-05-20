@@ -78,4 +78,11 @@ public class FamilyLinkingTests extends BaseUI{
         //delete family
         familyLinking.deletefamily();
     }
+
+    @Test(dataProvider = "CredentialsForParentInvitesKidAndGrandparent", dataProviderClass = DataProviders.class)
+    public void KidRequestsToJoinFamilyAndParentAccepts(String loginParent, String password, String loginKid, String loginGrandparent) {
+        main.clickLogin();
+        login.enterEmailAndPassword(loginKid, password);
+
+    }
 }
