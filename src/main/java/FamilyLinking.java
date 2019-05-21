@@ -3,8 +3,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class FamilyLinking extends BaseActions{
@@ -13,34 +11,12 @@ public class FamilyLinking extends BaseActions{
         super(driver, wait);
     }
 
-    public void clickFamilyMenu(){
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        ajaxClick(Locators.FAMILY_MENU_ICON);
-    }
 
     public void clickCreateFamily(){
+        wait.until(ExpectedConditions.elementToBeClickable(Locators.CREATE_FAMILY_BUTTON));
         driver.findElement(Locators.CREATE_FAMILY_BUTTON).click();
     }
 
-    public void clickContinueOnConfirmationPopup(){
-
-        wait.until(ExpectedConditions.elementToBeClickable(Locators.CONFIRMATION_POPUP_CONTINUE_BUTTON));
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        driver.findElement(Locators.CONFIRMATION_POPUP_CONTINUE_BUTTON).click();
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
 
     public void enterFamilyNameAndSubmit(){
         driver.findElement(Locators.FAMILY_DISPLAY_NAME_FIELD).clear();

@@ -15,7 +15,7 @@ public class FamilyLinkingTests extends BaseUI{
      *              5. Accept invitation and verify that Kid sees Family name
      *              6. Logout from kid account and login as Parent
      *              7. Delete family to make test reusable*/
-    @Test(dataProvider = "CredentialsForParentInvitesKidAndGrandparent", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "CredentialsForFamilyLinkingTests", dataProviderClass = DataProviders.class)
     public void parentCreatesFamilyInvitesKidAndKidAccepts(String loginParent, String password, String loginKid, String loginGrandparent) throws InterruptedException {
 
         main.clickLogin();
@@ -59,7 +59,7 @@ public class FamilyLinkingTests extends BaseUI{
      *              5. Accept invitation and verify that Grandparent sees Family name
      *              6. Logout from Grandparent account and login as Parent
      *              7. Delete family to make test reusable*/
-    @Test(dataProvider = "CredentialsForParentInvitesKidAndGrandparent", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "CredentialsForFamilyLinkingTests", dataProviderClass = DataProviders.class)
     public void parentCreatesFamilyInvitesGrandparentAndGrandparentAccepts(String loginParent, String password, String loginKid, String loginGrandparent) throws InterruptedException {
         main.clickLogin();
         login.enterEmailAndPassword(loginParent, password);
@@ -101,7 +101,7 @@ public class FamilyLinkingTests extends BaseUI{
      *              4. Logout from kid account and login as parent
      *              5. Accept invitation and verify that parent sees Family name
      *              6. Delete family to make test reusable*/
-    @Test(dataProvider = "CredentialsForParentInvitesKidAndGrandparent", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "CredentialsForFamilyLinkingTests", dataProviderClass = DataProviders.class)
     public void kidRequestsToJoinFamilyAndParentAccepts(String loginParent, String password, String loginKid, String loginGrandparent) throws InterruptedException {
         main.clickLogin();
         login.enterEmailAndPassword(loginKid, password);
@@ -135,7 +135,7 @@ public class FamilyLinkingTests extends BaseUI{
      *              2. Grandparent invites Parent
      *              3. Verify that the error message comes up "Invite is not allowed"
      *              4. Logout from grandparent account */
-    @Test(dataProvider = "CredentialsForParentInvitesKidAndGrandparent", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "CredentialsForFamilyLinkingTests", dataProviderClass = DataProviders.class)
     public void verifyGrandparentCannotRequestToJoinFamily(String loginParent, String password, String loginKid, String loginGrandparent){
         main.clickLogin();
         login.enterEmailAndPassword(loginGrandparent, password);
@@ -148,10 +148,10 @@ public class FamilyLinkingTests extends BaseUI{
         String messageGrandparentCannotInvite = familyLinking.getMessageGrandparentCannotRequestToJoin();
         Assert.assertEquals(messageGrandparentCannotInvite, Data.grandparentCannotJoinFamilyExpectedMessage);
         familyLinking.clickContinueOnConfirmationPopup();
-
         //Logout from kid account
         main.logOut();
-
     }
+
+
 
 }

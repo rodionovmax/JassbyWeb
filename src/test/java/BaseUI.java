@@ -13,6 +13,7 @@ public class BaseUI {
     Main main;
     Login login;
     FamilyLinking familyLinking;
+    SendMoney sendMoney;
 
 
     @BeforeMethod
@@ -37,6 +38,7 @@ public class BaseUI {
         main = new Main(driver, wait);
         login = new Login(driver, wait);
         familyLinking = new FamilyLinking(driver, wait);
+        sendMoney = new SendMoney(driver, wait);
 
     }
 

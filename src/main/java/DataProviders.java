@@ -11,10 +11,17 @@ public class DataProviders {
         };
     }
 
-    @DataProvider(name = "CredentialsForParentInvitesKidAndGrandparent")
+    @DataProvider(name = "CredentialsForFamilyLinkingTests")
     public static Object[][] credentialsForFamilyLinking(){
         return new Object[][]{
-                {Data.loginParent, Data.password, Data.loginKid, Data.loginGrandparent}
+                {Data.loginParentForFamilyLinkingTests, Data.password, Data.loginKidForFamilyLinkingTests, Data.loginGrandparentForFamilyLinkingTests}
+        };
+    }
+
+    @DataProvider(name = "CredentialsForSendMoneyTests")
+    public static Object[][] credentialsForSendMoney(){
+        return new Object[][]{
+                {Data.loginParentForSendMoneyTests, Data.password, Data.loginKidForSendMoneyTests, Data.loginGrandparentForSendMoneyTests}
         };
     }
 }
