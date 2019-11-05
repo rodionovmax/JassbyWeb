@@ -11,7 +11,7 @@ public class LoginTests extends BaseUI{
         main.logOut();
     }
 
-    @Test
+//    @Test
     public void testLoginViaGmail() throws InterruptedException {
         main.clickLogin();
         login.loginViaGmail();

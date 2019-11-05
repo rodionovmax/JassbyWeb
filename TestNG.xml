@@ -1,18 +1,25 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
-<suite name = "Web Test Suite" parallel="none">
+<suite name = "Web Test Suite" parallel="tests" thread-count="2">
 
 
-    <test name="ChromeTestCases">
-
+    <test name="ChromeTests">
+        <parameter name="host" value="chrome"/>
         <classes>
-
             <class name="LoginTests"/>
-            <class name="FamilyLinkingTests"/>
-            <class name="SendMoneyTests"/>
-
+            <!--<class name="FamilyLinkingTests"/>-->
+            <!--<class name="SendMoneyTests"/>-->
         </classes>
-
     </test>
+
+    <test name="FirefoxTests">
+        <parameter name="host" value="firefox"/>
+        <classes>
+            <class name="LoginTests"/>
+            <!--<class name="FamilyLinkingTests"/>-->
+            <!--<class name="SendMoneyTests"/>-->
+        </classes>
+    </test>
+
 
 </suite>
